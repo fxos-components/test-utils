@@ -1,0 +1,30 @@
+{
+  "name": "test-utils",
+  "homepage": "https://github.com/gaia-components/test-utils",
+  "version": "0.0.1",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "bower": "^1.4.1",
+    "browserify": "^10.1.0",
+    "jshint": "^2.7.0",
+    "karma": "^0.12.32",
+    "karma-firefox-launcher": "^0.1.4",
+    "karma-mocha": "^0.1.10",
+    "karma-sinon-chai": "^0.3.0",
+    "mozilla-download": "^1.0.5"
+  },
+  "scripts": {
+    "test-lint": "./node_modules/jshint/bin/jshint src/*.js test/*.js",
+    "test-unit": "./node_modules/karma/bin/karma start test/karma.conf.js --single-run",
+    "test-unit-dev": "./node_modules/karma/bin/karma start test/karma.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gaia-components/test-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gaia-components/test-utils/issues"
+  }
+}

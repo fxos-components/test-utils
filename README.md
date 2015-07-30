@@ -1,4 +1,4 @@
-# &lt;test-utils&gt; ![](https://travis-ci.org/gaia-components/test-utils.svg)  [![devDependency Status](https://david-dm.org/gaia-components/test-utils/dev-status.svg)](https://david-dm.org/gaia-components/test-utils#info=devDependencies)
+# &lt;test-utils&gt; [![](https://travis-ci.org/gaia-components/test-utils.svg)](https://travis-ci.org/gaia-components/test-utils) [![devDependency Status](https://david-dm.org/gaia-components/test-utils/dev-status.svg)](https://david-dm.org/gaia-components/test-utils#info=devDependencies)
 
 ## Tests
 

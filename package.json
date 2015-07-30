@@ -1,7 +1,7 @@
 {
   "name": "test-utils",
   "homepage": "https://github.com/gaia-components/test-utils",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "directories": {
     "test": "test"
   },

@@ -6,8 +6,9 @@
    */
   var axe = require('axe');
   var sinon = require('sinon');
+  var utils = require('test-utils');
 
-  var accessibility = {
+  utils.accessibility = {
     check: function accessibility_check(container) {
       var a11yCheck = new Promise((resolve) => {
         axe.a11yCheck(container, resolve);
@@ -24,8 +25,6 @@
       });
     }
   };
-
-  module.exports = accessibility;
 
 });})(typeof define=='function'&&define.amd?define
 :(function(n,w){'use strict';return typeof module=='object'?function(c){

@@ -12,13 +12,17 @@ module.exports = function(config) {
     customLaunchers: {
       firefox_latest: {
         base: 'FirefoxNightly',
-        prefs: { 'dom.webcomponents.enabled': true }
+        prefs: {
+          'dom.webcomponents.enabled': true,
+          'dom.w3c_touch_events.enabled': 1
+        }
       }
     },
 
     files: [
       'lib/*.js',
-      'src/*.js',
+      'src/utils.js',
+      'src/accessibility.js',
       'test/test.js'
     ]
   });

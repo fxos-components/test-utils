@@ -20,7 +20,7 @@ module.exports = function(config) {
     },
 
     files: [
-      'lib/*.js',
+      'node_modules/axe-core/axe.min.js',
       'src/utils.js',
       'src/accessibility.js',
       'test/test.js'

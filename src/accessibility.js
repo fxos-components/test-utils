@@ -9,9 +9,10 @@
   var utils = require('test-utils');
 
   utils.accessibility = {
-    check: function accessibility_check(container) {
+    check: function accessibility_check(container, options) {
+      options = options || {};
       var a11yCheck = new Promise((resolve) => {
-        axe.a11yCheck(container, resolve);
+        axe.a11yCheck(container, options, resolve);
       });
 
       return a11yCheck.then(results => {

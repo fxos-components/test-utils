@@ -19,6 +19,11 @@ suite('test-utils', function() {
     assert.ok(accessibility);
     assert.ok(accessibility.check);
     accessibility.check(this.dom).then(done, done);
+    accessibility.check(this.dom, {
+      rules: {
+        'color-contrast': { enabled: false }
+      }
+    }).then(done, done);
   });
 
   test('afterNext', function(done) {

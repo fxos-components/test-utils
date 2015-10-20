@@ -19,7 +19,7 @@
         obj[method] = function() {
           clearTimeout(timeout);
           obj[method] = real; // restore asap
-          var result = real.apply(obj, arguments);
+          var result = real.apply(this, arguments);
           resolve(result);
           return result;
         };
